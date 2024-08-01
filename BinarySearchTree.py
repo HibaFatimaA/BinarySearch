@@ -81,7 +81,6 @@ def contains(root, item):
   elif (root.val < item) and (root.rchild != None):
     return contains(root.rchild, item)
   else:
-    print('what')
     return False
 
 ##Examples:
